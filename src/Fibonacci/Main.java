@@ -3,6 +3,7 @@ package Fibonacci;
 public class Main {
 
 	public static void main(String[] args) {
+		// Calculando o Fibonacci de 10
 		calculaFibonacci(10);
 	}
 	
@@ -20,6 +21,7 @@ public class Main {
 			else {
 				valores[i] = valores[i-2] + valores[i-1];
 			}
+			// Mostra o Fibonacci de todos os valores até o desejado
 			System.out.println(i + " = " + valores[i]);
 		}
 		
